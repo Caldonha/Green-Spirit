@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" type="imagex/png" href="Imagens/ico.ico">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9f08981695.js" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-light corNav">
+    <a href="index.html">
+    <span class="navbar-brand mb-0 h1">Voltar</span>
+</a>
+  </nav>
+
+    
+    <div class="fundo">
+
+
+
+        <div class="section">
+            <div class="container">
+                <div class="row full-height justify-content-center">
+                    <div class="col-12 text-center align-self-center py-5">
+                        <div class="section pb-5 pt-5 pt-sm-2 text-center">
+
+
+                            <img src="Imagens/logo.png"   class="img-fluid">
+                            <br><br>
+                            <h6 class="mb-0 pb-3"><span>Login </span><span>Registre</span></h6>
+
+                            <input class="checkbox " type="checkbox" id="reg-log" name="reg-log" />
+                            <label for="reg-log"></label>
+
+
+                             <!-- Caixa de login e Registro-->
+                            <div class="card-3d-wrap mx-auto">
+                                <div class="card-3d-wrapper">
+
+                                     <!-- Parte de Login-->
+                                    <div class="card-front">
+                                        <div class="center-wrap">
+                                            <div class="section text-center">
+                                                <h4 class="mb-4 pb-3">Login</h4>
+                                                <div class="form-group">
+                                                    <input type="email" name="logemail" class="form-style"
+                                                        placeholder="Usuario" id="logemail" autocomplete="off">
+                                                    <i class="input-icon fa-solid fa-user"></i>
+                                                </div>
+                                                <div class="form-group mt-2">
+                                                    <input type="password" name="logpass" class="form-style"
+                                                        placeholder="Senha" id="logpass" autocomplete="off">
+                                                    <i class="input-icon fa-solid fa-lock"></i>
+
+                                                </div>
+                                                <br>
+                                                <a href="inicio.html">
+                                                    <button class="glow-on-hover" type="button"> Login </button>
+                                                </a>
+                                                <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Esquecia a
+                                                        senha</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Parte de INSCREVER-SE-->
+
+                                    <div class="card-back">
+                                        <div class="center-wrap">
+                                            <div class="section text-center">
+                                                <h4 class="mb-4 pb-3">INSCREVER-SE
+                                                </h4>
+                                                <div class="form-group">
+                                                    <input type="text" name="logname" class="form-style"
+                                                        placeholder="Seu Nome" id="logname" autocomplete="off">
+                                                    <i class="input-icon fa-solid fa-user"></i>
+                                                </div>
+                                                <div class="form-group mt-2">
+                                                    <input type="email" name="logemail" class="form-style"
+                                                        placeholder="Seu Email" id="logemail" autocomplete="off">
+                                                    <i class="input-icon fa-solid fa-envelope"></i>
+                                                </div>
+                                                <div class="form-group mt-2">
+                                                    <input type="password" name="logpass" class="form-style"
+                                                        placeholder="Sua Senha" id="logpass" autocomplete="off">
+                                                    <i class="input-icon fa-solid fa-lock"></i>
+                                                </div>
+                                                <a href="#">
+                                                    <button class="glow-on-hover mb-4" type="button" data-toggle="modal" data-target="#staticBackdrop"> Proximo
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+ 
+
+  <!-- Modal -->
+  <div class="modal fade " id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg   ">
+      <div class="modal-content corModal">
+        
+        <div class="modal-body corModal">
+            <div class="section text-center">
+                <h4 class="mb-4 pb-3">Dados Pessoais
+                </h4>
+                <div class="form-group">
+                    <input type="number" name="cep" class="form-style"
+                        placeholder="CEP" id="logname" autocomplete="off">
+                    <i class="input-icon fa-solid fa-map"></i>
+                </div>
+                <div class="form-group mt-2">
+                    <input type="number" name="telefone" class="form-style"
+                        placeholder="Seu Numero" id="telefone" autocomplete="off">
+                    <i class="input-icon fa-sharp fa-solid fa-phone"></i>
+                </div>
+                <div class="form-group mt-2">
+                    <input type="password" name="senha" class="form-style"
+                        placeholder="Confirme sua Senha" id="senha" autocomplete="off">
+                    <i class="input-icon fa-solid fa-lock"></i>
+                </div>
+              
+            </div>
+        </div>
+        <div class="modal-footer corModal">
+            
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+          <a href="inicio.html">
+          <button type="button" class="btn btn-primary">Inscreva-se</button>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

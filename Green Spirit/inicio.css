@@ -1,0 +1,645 @@
+
+
+.fundo{
+  
+  background-image: url(Imagens/fundo.png)  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+
+
+}
+
+
+.escrita{
+
+  color:red;
+ 
+}
+
+
+.corModal{
+
+  background-color:#C0C0C0 ;
+
+}
+.corLeitura{
+  background-color: #C0C0C0;
+  color:black;
+ 
+ }
+ 
+ .marginPefil{
+
+  margin-right: 100px;
+  
+ }
+
+ .tamanho{
+
+  width:50%;
+
+ }
+ 
+ .corNav{
+
+  background-color: white;
+  color:#000;
+  font-weight:bold;
+}
+ 
+ .corInicial{
+ 
+     background-color: #228B22;
+ 
+ }
+ 
+ .margin{
+   margin-left: 20px;
+
+ }
+ 
+ .imagem{
+     height: 65%;
+     width: 65%;
+     margin-top: 20px;
+ }
+ 
+ .container-fluid {
+   background-color: #98FB98;
+     color: black;
+     padding: 100px 20px;
+     font-family: Montserrat, sans-serif;
+   }
+ 
+   .container-fluidInicio {
+     
+     color: #fff;
+     padding: 5rem 20px;
+     font-family: Montserrat, sans-serif;
+   }
+ 
+   .container-fluid1 {
+     
+     color: black;
+     padding: 100px 20px;
+     font-family: Montserrat, sans-serif;
+   }
+ 
+   .container-fluidMaps{
+     background-color: #98FB98	;
+     color: black;
+     padding: 100px 20px;
+     font-family: Montserrat, sans-serif;
+   }
+ 
+ 
+ 
+ 
+   
+  /*  Parte dos paines */
+
+
+  .imagemP{
+    height: 65%;
+    width: 65%;
+    margin-top: 20px;
+}
+
+  .corFundoPainel{
+    background-color: white;
+  }
+
+
+
+   /* Painel Plastico */
+
+  .corPl{
+
+    background-color: red;
+    color:white;
+  }
+
+
+  .panelPl {
+    border: 2px solid red; 
+    border-radius:4px !important;
+    transition: box-shadow 0.5s;
+    margin-top: 20px;
+  }
+  .panelPl:hover {
+    box-shadow: 5px 0px 40px red;
+  }
+  .panelPl-footer .btn:hover {
+    border: 1px solid #6ca46c;
+    background-color: #fff !important;
+    color: black;
+  }
+  .panelPl-heading {
+    background-color: red;
+    color: white !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .panelPl-footer {
+    background-color: white !important;
+  }
+  
+  
+  .panelPl-footer .btn {
+    margin: 15px 0;
+    background-color: red;
+    color: #fff;
+    border: red;
+  }
+
+
+  /* Painel Metal */
+
+  .corM{
+
+    background-color: yellow;
+    color: black;
+    
+  }
+
+  .panelM {
+    border: 2px solid yellow; 
+    border-radius:4px !important;
+    transition: box-shadow 0.5s;
+    margin-top: 20px;
+  }
+  .panelM:hover {
+    box-shadow: 5px 0px 40px #FFD700;
+  }
+  .panelM-footer .btn:hover {
+    border: 1px solid #6ca46c;
+    background-color: #fff !important;
+    color: black;
+  }
+  .panelM-heading {
+    background-color: yellow;
+    color: black !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+  }
+
+  .panelM-footer {
+    background-color: white !important;
+  }
+  
+  
+  .panelM-footer .btn {
+    margin: 15px 0;
+    background-color: yellow;
+    border: yellow;
+    color: black;
+  }
+
+  /* Painel Papel */
+
+  .corPa{
+
+    background-color: blue;
+    color:white;
+    
+  }
+
+  .panelPa {
+    border: 2px solid blue; 
+    border-radius:4px !important;
+    transition: box-shadow 0.5s;
+    margin-top: 20px;
+  }
+  .panelPa:hover {
+    box-shadow: 5px 0px 40px blue;
+  }
+  .panelPa-footer .btn:hover {
+    border: 1px solid #6ca46c;
+    background-color: #fff !important;
+    color: black;
+  }
+  .panelPa-heading {
+    background-color: blue;
+    color: white !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .panelPa-footer {
+    background-color: white !important;
+  }
+  
+  
+  .panelPa-footer .btn {
+    margin: 15px 0;
+    background-color: blue;
+    color: #fff;
+  }
+
+
+
+  /* Painel Vidro */
+
+  .corV{
+
+    background-color: limegreen;
+    color:white;
+  }
+
+  .panelV {
+    border: 2px solid limegreen; 
+    border-radius:4px !important;
+    transition: box-shadow 0.5s;
+    margin-top: 20px;
+  }
+  .panelV:hover {
+    box-shadow: 5px 0px 40px limegreen;
+  }
+  .panelV-footer .btn:hover {
+    border: 1px solid #6ca46c;
+    background-color: #fff !important;
+    color: black;
+  }
+  .panelV-heading {
+    background-color: limegreen;
+    color: white !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panelV-footer {
+    background-color: white !important;
+  }
+  
+  
+  .panelV-footer .btn {
+    margin: 15px 0;
+    background-color: limegreen;
+    border:limegreen;
+    color: #fff;
+  }
+
+
+
+ 
+
+  .animação:hover {
+    transform: translateY(-10px);
+  }
+
+ 
+ /* Botao login  */
+ 
+ 
+ .glow-on-hover {
+   width: 100px;
+   height: 40px;
+   border: none;
+   outline: none;
+   color: #fff;
+   background: #111;
+   cursor: pointer;
+   position: relative;
+   z-index: 0;
+   border-radius: 10px;
+ }
+ 
+ .glow-on-hover:before {
+   content: '';
+   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+   position: absolute;
+   top: -2px;
+   left:-2px;
+   background-size: 400%;
+   z-index: -1;
+   filter: blur(5px);
+   width: calc(100% + 4px);
+   height: calc(100% + 4px);
+   animation: glowing 20s linear infinite;
+   opacity: 0;
+   transition: opacity .3s ease-in-out;
+   border-radius: 10px;
+ }
+ 
+ .glow-on-hover:active {
+   color: #000
+ }
+ 
+ .glow-on-hover:active:after {
+   background: transparent;
+ }
+ 
+ .glow-on-hover:hover:before {
+   opacity: 1;
+ }
+ 
+ .glow-on-hover:after {
+   z-index: -1;
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: green;
+   left: 0;
+   top: 0;
+   border-radius: 10px;
+ }
+ 
+ @keyframes glowing {
+   0% { background-position: 0 0; }
+   50% { background-position: 400% 0; }
+   100% { background-position: 0 0; }
+ }
+ 
+ 
+ 
+ 
+ /* Botao Solicitaçao  */
+ 
+ .soli {
+   min-width: 300px;
+   min-height: 60px;
+   font-family: 'Nunito', sans-serif;
+   font-size: 22px;
+   text-transform: uppercase;
+   letter-spacing: 1.3px;
+   font-weight: 700;
+   color: #313133;
+   background: #00FF00;
+   border: none;
+   border-radius: 1000px;
+   transition: all 0.3s ease-in-out 0s;
+   cursor: pointer;
+   outline: none;
+   position: relative;
+   padding: 10px;
+   }
+ 
+ .soli::before {
+ content: '';
+   border-radius: 1000px;
+   min-width: calc(300px + 12px);
+   min-height: calc(60px + 12px);
+   border: 6px solid #008000;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   opacity: 0;
+   transition: all .3s ease-in-out 0s;
+ }
+ 
+ .soli:hover, .soli:focus {
+   color: #313133;
+   transform: translateY(-10px);
+ }
+ 
+ .soli:hover::before, soli:focus::before {
+   opacity: 1;
+ }
+ 
+ 
+
+ /* Parte dos formularios */
+
+
+ .input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'],[type='date'],[type='time'] ,[type='tel'] ,select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, [type='date']:focus,[type='time']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder { 
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+ 
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+
+
+/* Painel Trocas */
+ 
+.corTrocas{
+ 
+  background-color: limegreen;
+  color:white;
+}
+
+.panelTrocas {
+  border: 2px solid limegreen; 
+  border-radius:4px !important;
+  transition: box-shadow 0.5s;
+  margin-top: 20px;
+}
+.panelTrocas:hover {
+  box-shadow: 5px 0px 40px limegreen;
+}
+.panelTrocas-footer .btn:hover {
+  border: 1px solid #6ca46c;
+  background-color: #fff !important;
+  color: black;
+}
+.panelTrocas-heading {
+  background-color: limegreen;
+  color: white !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.panelTrocas-footer {
+  background-color: white !important;
+}
+
+
+.panelTrocas-footer .btn {
+  margin: 15px 0;
+  background-color: limegreen;
+  border:limegreen;
+  color: #fff;
+}
+
+
+
+
+
+.animação:hover {
+  transform: translateY(-10px);
+}
+
